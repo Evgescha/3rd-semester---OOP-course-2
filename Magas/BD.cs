@@ -21,7 +21,7 @@ namespace Magas
         public BD()
         {
             // при создании экземпляра класса сразу прописываем путь к бд
-            connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=bd.accdb;Persist Security Info = False; ";
+            connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.16.0;Data Source=bd.accdb;Persist Security Info = False; ";
         }
         // метод входа
         public int LogIn(string com)
